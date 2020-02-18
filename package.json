@@ -1,0 +1,23 @@
+{
+  "name": "ethans-cafe",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel index.html --open chrome",
+    "build": "parcel build index.html --out-dir ./public"
+  },
+  "author": "Ethan Anderson",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^9.7.3",
+    "cssnano": "^4.1.10",
+    "parcel-plugin-compress": "^1.1.0",
+    "sass": "^1.24.3"
+  },
+  "dependencies": {
+    "feather-icons": "^4.26.0",
+    "parcel-bundler": "^1.12.4",
+    "tippy.js": "^5.1.3"
+  }
+}

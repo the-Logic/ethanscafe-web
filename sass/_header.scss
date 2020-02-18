@@ -1,0 +1,47 @@
+.header {
+  margin-top: 3.5rem;
+  width: 100%;
+
+  display: grid;
+  grid-template-rows: max-content;
+
+  & > * {
+    grid-row: 1 / 2;
+  }
+
+  &--logo {
+    justify-self: start;
+
+    color: $color-secondary;
+    text-transform: uppercase;
+
+    h3 {
+      font-size: 1.8rem;
+      font-weight: 600;
+    }
+
+    h4 {
+      font-size: 1.6rem;
+      font-weight: 200;
+    }
+  }
+
+  &--nav {
+    justify-self: end;
+
+    list-style: none;
+
+    display: grid;
+    grid-template-columns: repeat(3, max-content);
+    column-gap: 4rem;
+  }
+
+  &--nav-btn:link,
+  &--nav-btn:visited {
+    color: #fff;
+    font-size: 1.8rem;
+    font-weight: 600;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+}
